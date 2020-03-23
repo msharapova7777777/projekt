@@ -1,0 +1,134 @@
+body, header, nav, main, .wrap1, .wrap2, .inner1, .inner2, .last1, .lastt2, .end { border: 1px solid #CC05D8}
+
+
+
+body {
+	width: 1000px;
+	height: 1390px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+#otp {text-align: right;}
+header{
+	width: 900px;
+	height: 250px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+
+nav{
+	width: 900px;
+	height: 80px;
+
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+main  {
+	width: 900px;
+	height: 770px;
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+	
+	
+}
+
+
+.wrap1 {
+	width: 900px;
+	height: 370px;	
+	display: flex;
+	
+	
+}
+.wrap2 {
+	width: 900px;
+	height: 400px;	
+	display: flex;
+}
+
+.inner1 {
+	width: 450px;
+	height: 370px;
+	padding-left: 10px;
+	padding-right: 10px;
+	overflow: auto;
+	
+}
+
+.inner2 {
+	width: 450px;
+	height: 400px;
+	padding: 10px;
+}
+.h {
+	text-align: center;
+  font-size: 30px;
+  font-family: "Myriad Pro";
+  color: rgb(23, 159, 129);
+ 
+
+
+}
+p {	text-align: justify;
+	font-size: 16pt;	}
+
+input, textarea {
+	border: 0;
+	background: #dcdcdc;
+	font-size: 24px;
+	padding: 3px;
+	
+	
+}
+footer  {
+	width: 900px;
+	height: 230px;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.last1 {
+	width: 900px;
+	height: 50px;	
+	display: flex;
+	justify-content: center;
+	
+}
+
+.h1 {
+	
+  font-size: 25px;
+  font-family: "Myriad Pro";
+  color: rgb(23, 159, 129);
+  text-align: right;
+}	
+	
+
+.last2 {
+	width: 900px;
+	height: 180px;	
+	display: flex;
+	
+	
+}
+.end {
+	width: 450px;
+	height: 190px;	
+	text-align: center;
+	padding-top: 20px;
+	
+}
+
